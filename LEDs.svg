@@ -3,6 +3,7 @@
     .outline{ filter:url(#shadow);}
     #LED-red path{fill:rgb(200,0,0)}
     #LED-red circle{fill:url(#red-led)}
+	  .wire { fill: url(#wire)}
   </style>
     <g id="LED-red" class="outline">
         <path id="led" d="M 25 2 C 30.4 4.9 34 10.5 34 17 C 34 26.4 26.4 34 17 34 C 7.6 34 0 26.4 0 17 C 0 10.5 3.6 4.9 9 2 L 25 2 Z" />
@@ -21,5 +22,21 @@
       <filter id="shadow">
           <feDropShadow dx="0" dy="1" stdDeviation="0" flood-opacity="0.2" />
       </filter>
+	            <lineargradient id="wire" gradientTransform="rotate(90)">
+            <stop offset="0" style="stop-color:rgb(153,153,153)" />
+            <stop offset="0.33" style="stop-color:rgb(243,243,243)" />
+            <stop offset="1" style="stop-color:rgb(153,153,153)" />
+        </lineargradient>
     </defs>
+
+    <path id="link9" class="wire" d="M 227 0 H 2.5 A 1 1 0 0 0 2.5 5 H 227 A 1 1 0 0 0 227 0 Z" />
+    <path id="link8" class="wire" d="M 201 0 H 2.5 A 1 1 0 0 0 2.5 5 H 201 A 1 1 0 0 0 201 0 Z" />
+    <path id="link7" class="wire" d="M 176 0 H 2.5 A 1 1 0 0 0 2.5 5 H 176 A 1 1 0 0 0 176 0 Z" />
+    <path id="link6" class="wire" d="M 150 0 H 2.5 A 1 1 0 0 0 2.5 5 H 150 A 1 1 0 0 0 150 0 Z" />
+    <path id="link5" class="wire" d="M 125 0 H 2.5 A 1 1 0 0 0 2.5 5 H 125 A 1 1 0 0 0 125 0 Z" />
+    <path id="link4" class="wire" d="M 99 0 H 2.5 A 1 1 0 0 0 2.5 5 H 99 A 1 1 0 0 0 99 0 Z" />
+    <path id="link3" class="wire" d="M 74 0 H 2.5 A 1 1 0 0 0 2.5 5 H 74 A 1 1 0 0 0 74 0 Z" />
+    <path id="link2" class="wire" d="M 48 0 H 2.5 A 1 1 0 0 0 2.5 5 H 48 A 1 1 0 0 0 48 0 Z" />
+    <path id="link1" class="wire" d="M 23 0 H 2.5 A 1 1 0 0 0 2.5 5 H 23 A 1 1 0 0 0 23 0 Z" />
+
 </svg>
