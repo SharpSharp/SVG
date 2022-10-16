@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 331 254" xmlns="http://www.w3.org/2000/svg" class="ghost-strips mounts">
+  <style>
+    #board
+{
+  fill:rgb(224,153,82);
+}
+#strip
+{
+  display:none;
+}
+.copper #strip 
+{
+  fill:url(#copper);
+  display:block;
+}
+.ghost-strips #strip 
+{
+  fill:white;
+  fill-opacity:0.2;
+  display:block;
+}
+circle
+{
+  fill:white;
+  stroke:black;
+  stroke-width:.5;
+  vector-effect: non-scaling-stroke;
+}
+#mounts
+{
+  display:none;
+}
+.mounts #mounts
+{
+  display:block;
+}
+  </style>
+  <defs>
+    <rect id="strip" width="305" height="20"/>
+    <circle id="hole" r="7"/>
+    <circle id="mounting-hole" r="15"/>
+ 
+      <g id="hole-row">
+				<use x="0"     href="#hole" />
+				<use x="25.4"  href="#hole" />
+				<use x="50.8"  href="#hole" />
+				<use x="76.2"  href="#hole" />
+				<use x="101.6" href="#hole" />
+				<use x="127"   href="#hole" />
+				<use x="152.4" href="#hole" />
+				<use x="177.8" href="#hole" />
+				<use x="203.2" href="#hole" />
+				<use x="228.6" href="#hole" />
+				<use x="254"   href="#hole" />
+				<use x="279.4" href="#hole" />
+      </g>
+       
+      <linearGradient id="copper" gradientTransform="rotate(90)">
+         <stop offset="0"   style="stop-color:rgb(255,179,153)"/>
+         <stop offset="0.2" style="stop-color:rgb(247,183,161)"/>
+         <stop offset="0.3" style="stop-color:rgb(245,184,163)"/>
+         <stop offset="0.7" style="stop-color:rgb(249,172,134)"/>
+         <stop offset="1"   style="stop-color:rgb(255,179,153)"/>
+      </linearGradient>     
+  </defs>
+  
+   
+    <g id="stripboard">
+        <rect id="board" x="12.7" y="12.7" width="305" height="228.6" />
+
+        <g id="ghost-strips">
+        <use x="12.7" y="218.4" href="#strip" />
+        <use x="12.7" y="193"   href="#strip" />
+        <use x="12.7" y="167.6" href="#strip" />
+        <use x="12.7" y="142.2" href="#strip" />
+        <use x="12.7" y="116.8" href="#strip" />
+        <use x="12.7" y="91.4"  href="#strip" />
+        <use x="12.7" y="66"    href="#strip" />
+        <use x="12.7" y="40.6"  href="#strip" />
+        <use x="12.7" y="15.2"  href="#strip" />
+    </g>
+    <g id="holes">
+        <use x="25.4" y="25.4"  href="#hole-row" /> 
+        <use x="25.4" y="50.8"  href="#hole-row" />
+        <use x="25.4" y="76.2"  href="#hole-row" />
+        <use x="25.4" y="101.6" href="#hole-row" />
+        <use x="25.4" y="127"   href="#hole-row" />
+        <use x="25.4" y="152.4" href="#hole-row" />
+        <use x="25.4" y="177.8" href="#hole-row" />
+        <use x="25.4" y="203.2" href="#hole-row" />
+        <use x="25.4" y="228.6" href="#hole-row" />
+    </g>
+    <g id="mounts">
+        <use x="50.8"  y="50.8"  href="#mounting-hole" />
+        <use x="279.4" y="50.8"  href="#mounting-hole" />
+        <use x="279.4" y="203.2" href="#mounting-hole" />
+        <use x="50.8"  y="203.2" href="#mounting-hole" />
+    </g>
+    </g>
+</svg>
+
