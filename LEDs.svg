@@ -1,0 +1,25 @@
+<svg viewBox="0 0 34 35" xmlns="http://www.w3.org/2000/svg" >
+  <style>
+    .outline{ filter:url(#shadow);}
+    #LED-red path{fill:rgb(200,0,0)}
+    #LED-red circle{fill:url(#red-led)}
+  </style>
+    <g id="LED-red" class="outline">
+        <path id="led" d="M 25 2 C 30.4 4.9 34 10.5 34 17 C 34 26.4 26.4 34 17 34 C 7.6 34 0 26.4 0 17 C 0 10.5 3.6 4.9 9 2 L 25 2 Z" />
+        <circle id="led" cx="17" cy="17" r="15" />
+    </g>
+    <defs>
+    <radialGradient id="red-led" 
+			cx="50%" 
+			cy="50%" 
+			r="1" >
+			<stop offset="0"	style="stop-color:rgb(255,100,100)"/>
+			<stop offset="0.5"	style="stop-color:rgb(255,0,0)"/>
+			<stop offset="1"	style="stop-color:rgb(200,0,0)"/>
+		</radialGradient>
+    
+      <filter id="shadow">
+          <feDropShadow dx="0" dy="1" stdDeviation="0" flood-opacity="0.2" />
+      </filter>
+    </defs>
+</svg>
