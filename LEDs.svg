@@ -23,9 +23,8 @@
 	<stop offset="1"	style="stop-color:rgb(200,0,0)"/>
     </radialGradient>
     <radialGradient id="green-led" cx="50%" cy="50%" r="1" >
-	<stop offset="0"	style="stop-color:rgb(100,255,100)"/>
-	<stop offset="0.5"	style="stop-color:rgb(0,255,0)"/>
-	<stop offset="1"	style="stop-color:rgb(0,200,0)"/>
+	<stop offset="0"	style="stop-color:rgb(117,240,117)"/>
+	<stop offset="1"	style="stop-color:rgb(18,161,18)"/>
     </radialGradient>
     
       <filter id="shadow">
