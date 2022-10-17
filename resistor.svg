@@ -1,45 +1,81 @@
-<svg width="100%" height="100%" viewBox="0 0 100 24"  xmlns="http://www.w3.org/2000/svg">
-	<style>
-		.body {fill:url(#body)}
-		.wire {fill:url(#wire)}
-		.band4 {fill:url(#gold)}
-		.band2 {fill:rgb(242,13,13)}
-		.band1 {fill:rgb(242,94,13)}
-	</style>
-	<g id="resistor-4-band">
-		<path class="wire" id="w" d=" M 97.5 9.5 H 2.5 A 1 1 0 0 0 2.5 14.5 H 97.5 A 1 1 0 0 0 97.5 9.5 Z "/>
+<svg  viewBox="0 0 102 102" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        #h-resistor .body {fill: url(#h-body)}
+        #v-resistor .body {fill: url(#v-body)}
+        #h-resistor .wire { fill: url(#h-wire)}
+        #v-resistor .wire { fill: url(#v-wire)}
+        .band4 {fill: url(#gold)}
+        .band3 {fill: rgb(242, 13, 13)}
+        .band2 {fill: rgb(242, 94, 13)}
+        .band1 {fill: rgb(10, 10, 10)}
+        .outline {filter: url(#shadow)}
+    </style>
+    <g id="h-resistor">
+        <g class="outline">
+            <path class="wire" d=" M 97.5 9.5 H 2.5 A 1 1 0 0 0 2.5 14.5 H 97.5 A 1 1 0 0 0 97.5 9.5 Z " />
+            <path class="body" d=" M 28 0 C 22 0 26 9.5 20 9.5 V 14.5 C 26 14.5 22 24 28 24 H 34 C 37 24 37 21 40 21 H 60 C 63 21 63 24 66 24 H 72 C 77 24 74 14.5 80 14.5 V 9.5 C 74 9.5 77 0 72 0 H 66 C 63 0 63 3 60 3 H 40 C 37 3 37 0 34 0 H 28 Z " />
+        </g>
 
-		<path class="body" d=" M 28 0 C 22 0 26 9.5 20 9.5 V 14.5 C 26 14.5 22 24 28 24 H 34 C 37 24 37 21 40 21 H 60 C 63 21 63 24 66 24 H 72 C 77 24 74 14.5 80 14.5 V 9.5 C 74 9.5 77 0 72 0 H 66 C 63 0 63 3 60 3 H 40 C 37 3 37 0 34 0 H 28 Z "/>
+        <g class="bands">
+            <rect class="band4" x="66" y="0" width="6" height="24" />
+            <rect class="band3" x="52" y="3" width="6" height="18" />
+            <rect class="band2" x="40" y="3" width="6" height="18" />
+            <rect class="band1" x="28" y="0" width="6" height="24" />
+        </g>
+    </g>
+    <g id="v-resistor">
+        <g class="outline">
+            <path class="wire" d="M 14.5 97.5 V 2.5 A 1 1 0 0 0 9.5 2.5 V 97.5 A 1 1 0 0 0 14.5 97.5 Z " />
+            <path class="body" d=" M 24 28 C 24 22 14.5 26 14.5 20 H 9.5 C 9.5 26 0 22 0 28 V 34 C 0 37 3 37 3 40 V 60 C 3 63 0 63 0 66 V 72 C 0 77 9.5 74 9.5 80 H 14.5 C 14.5 74 24 77 24 72 V 66 C 24 63 21 63 21 60 V 40 C 21 37 24 37 24 34 V 28 Z " />
+        </g>
 
-		<g id="bands">
-			<rect class="band4" x="66" y="0" width="6" height="24" />
-			<rect class="band3" x="52" y="3" width="6" height="18" />
-			<rect class="band2" x="40" y="3" width="6" height="18" />
-			<rect class="band1" x="28" y="0" width="6" height="24" />
-		</g>
-	</g>
-	<defs>
-		<linearGradient id="wire" gradientTransform="rotate(90)">
-			<stop offset="0"	style="stop-color:rgb(153,153,153)"/>
-			<stop offset="0.33"	style="stop-color:rgb(243,243,243)"/>
-			<stop offset="1"	style="stop-color:rgb(153,153,153)"/>
-		</linearGradient>
-  
-		<linearGradient id="body">
-			<stop offset="0"	style="stop-color:rgb(245,184,61)"/>
-			<stop offset="0.1"	style="stop-color:rgb(246,189,74)"/>
-			<stop offset="0.2"	style="stop-color:rgb(247,201,110)"/>
-			<stop offset="0.36"	style="stop-color:rgb(208,151,37)"/>
-			<stop offset="0.8"	style="stop-color:rgb(247,201,110)"/>
-			<stop offset="0.9"	style="stop-color:rgb(233,183,83)"/>
-			<stop offset="1"	style="stop-color:rgb(194,133,10)"/>
-		</linearGradient>
-  
-		<linearGradient id="gold">
-			<stop offset="0"	style="stop-color:rgb(211,170,42)"/>
-			<stop offset="0.4"	style="stop-color:rgb(255,216,88)"/>
-			<stop offset="0.6"	style="stop-color:rgb(255,215,85)"/>
-			<stop offset="1"	style="stop-color:rgb(213,176,49)"/>
-		</linearGradient>
-	</defs>
+        <g class="bands">
+            <rect class="band4" x="0" y="66" width="24" height="6" />
+            <rect class="band3" x="3" y="52" width="18" height="6" />
+            <rect class="band2" x="3" y="40" width="18" height="6" />
+            <rect class="band1" x="0" y="28" width="24" height="6" />
+        </g>
+    </g>
+    <defs>
+        <lineargradient id="h-wire" gradientTransform="rotate(90)">
+            <stop offset="0" style="stop-color:rgb(153,153,153)" />
+            <stop offset="0.3" style="stop-color:rgb(243,243,243)" />
+            <stop offset="1" style="stop-color:rgb(153,153,153)" />
+        </lineargradient>
+        <lineargradient id="v-wire">
+            <stop offset="0" style="stop-color:rgb(160,160,160)" />
+            <stop offset="0.4" style="stop-color:rgb(220,220,220)" />
+            <stop offset="1" style="stop-color:rgb(153,153,153)" />
+        </lineargradient>
+
+        <lineargradient id="h-body">
+            <stop offset="0" style="stop-color:rgb(245,184,61)" />
+            <stop offset="0.1" style="stop-color:rgb(246,189,74)" />
+            <stop offset="0.2" style="stop-color:rgb(247,201,110)" />
+            <stop offset="0.36" style="stop-color:rgb(208,151,37)" />
+            <stop offset="0.8" style="stop-color:rgb(247,201,110)" />
+            <stop offset="0.9" style="stop-color:rgb(233,183,83)" />
+            <stop offset="1" style="stop-color:rgb(194,133,10)" />
+        </lineargradient>
+        <lineargradient id="v-body" gradientTransform="rotate(90)">
+            <stop offset="0" style="stop-color:rgb(245,184,61)" />
+            <stop offset="0.1" style="stop-color:rgb(246,189,74)" />
+            <stop offset="0.2" style="stop-color:rgb(247,201,110)" />
+            <stop offset="0.36" style="stop-color:rgb(208,151,37)" />
+            <stop offset="0.8" style="stop-color:rgb(247,201,110)" />
+            <stop offset="0.9" style="stop-color:rgb(233,183,83)" />
+            <stop offset="1" style="stop-color:rgb(194,133,10)" />
+        </lineargradient>
+
+        <lineargradient id="gold">
+            <stop offset="0" style="stop-color:rgb(211,170,42)" />
+            <stop offset="0.4" style="stop-color:rgb(255,216,88)" />
+            <stop offset="0.6" style="stop-color:rgb(255,215,85)" />
+            <stop offset="1" style="stop-color:rgb(213,176,49)" />
+        </lineargradient>
+
+        <filter id="shadow">
+            <fedropshadow dx="0" dy="1" stdDeviation="0.5" flood-opacity="0.2" />
+        </filter>
+    </defs>
 </svg>
