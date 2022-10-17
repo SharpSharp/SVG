@@ -1,18 +1,33 @@
-<svg  viewBox="0 0 230 5" xmlns="http://www.w3.org/2000/svg">
+<svg  viewBox="0 0 230 230" xmlns="http://www.w3.org/2000/svg">
     <style>
-        .wire { fill: url(#wire)}
+        .vert { fill: url(#v-wire)}
+        .hoz { fill: url(#h-wire)}
     </style>
-    <path id="link9" class="wire" d="M 227 0 H 2.5 A 1 1 0 0 0 2.5 5 H 227 A 1 1 0 0 0 227 0 Z" />
-    <path id="link8" class="wire" d="M 201 0 H 2.5 A 1 1 0 0 0 2.5 5 H 201 A 1 1 0 0 0 201 0 Z" />
-    <path id="link7" class="wire" d="M 176 0 H 2.5 A 1 1 0 0 0 2.5 5 H 176 A 1 1 0 0 0 176 0 Z" />
-    <path id="link6" class="wire" d="M 150 0 H 2.5 A 1 1 0 0 0 2.5 5 H 150 A 1 1 0 0 0 150 0 Z" />
-    <path id="link5" class="wire" d="M 125 0 H 2.5 A 1 1 0 0 0 2.5 5 H 125 A 1 1 0 0 0 125 0 Z" />
-    <path id="link4" class="wire" d="M 99 0 H 2.5 A 1 1 0 0 0 2.5 5 H 99 A 1 1 0 0 0 99 0 Z" />
-    <path id="link3" class="wire" d="M 74 0 H 2.5 A 1 1 0 0 0 2.5 5 H 74 A 1 1 0 0 0 74 0 Z" />
-    <path id="link2" class="wire" d="M 48 0 H 2.5 A 1 1 0 0 0 2.5 5 H 48 A 1 1 0 0 0 48 0 Z" />
-    <path id="link1" class="wire" d="M 23 0 H 2.5 A 1 1 0 0 0 2.5 5 H 23 A 1 1 0 0 0 23 0 Z" />
+    <path id="hLink9" class="wire hoz" d="M 227 0 H 2.5 A 1 1 0 0 0 2.5 5 H 227 A 1 1 0 0 0 227 0 Z" />
+    <path id="hLink8" class="wire hoz" d="M 201 0 H 2.5 A 1 1 0 0 0 2.5 5 H 201 A 1 1 0 0 0 201 0 Z" />
+    <path id="hLink7" class="wire hoz" d="M 176 0 H 2.5 A 1 1 0 0 0 2.5 5 H 176 A 1 1 0 0 0 176 0 Z" />
+    <path id="hLink6" class="wire hoz" d="M 150 0 H 2.5 A 1 1 0 0 0 2.5 5 H 150 A 1 1 0 0 0 150 0 Z" />
+    <path id="hLink5" class="wire hoz" d="M 125 0 H 2.5 A 1 1 0 0 0 2.5 5 H 125 A 1 1 0 0 0 125 0 Z" />
+    <path id="hLink4" class="wire hoz" d="M 99 0 H 2.5 A 1 1 0 0 0 2.5 5 H 99 A 1 1 0 0 0 99 0 Z" />
+    <path id="hLink3" class="wire hoz" d="M 74 0 H 2.5 A 1 1 0 0 0 2.5 5 H 74 A 1 1 0 0 0 74 0 Z" />
+    <path id="hLink2" class="wire hoz" d="M 49 0 H 2.5 A 1 1 0 0 0 2.5 5 H 49 A 1 1 0 0 0 49 0 Z" />
+    <path id="hLink1" class="wire hoz" d="M 24 0 H 2.5 A 1 1 0 0 0 2.5 5 H 24 A 1 1 0 0 0 24 0 Z" />
+    <path id="vLink8" class="wire vert" d="M 5 229 V 2.5 A 1 1 0 0 0 0 2.5 V 229 A 1 1 0 0 0 5 229 Z" />
+    <path id="vLink8" class="wire vert" d="M 5 202 V 2.5 A 1 1 0 0 0 0 2.5 V 202 A 1 1 0 0 0 5 202 Z" />
+    <path id="vLink7" class="wire vert" d="M 5 177 V 2.5 A 1 1 0 0 0 0 2.5 V 177 A 1 1 0 0 0 5 177 Z" />
+    <path id="vLink6" class="wire vert" d="M 5 152 V 2.5 A 1 1 0 0 0 0 2.5 V 152 A 1 1 0 0 0 5 152 Z" />
+    <path id="vLink5" class="wire vert" d="M 5 126 V 2.5 A 1 1 0 0 0 0 2.5 V 126 A 1 1 0 0 0 5 126 Z" />
+    <path id="vLink4" class="wire vert" d="M 5 100 V 2.5 A 1 1 0 0 0 0 2.5 V 100 A 1 1 0 0 0 5 100 Z" />
+    <path id="vLink3" class="wire vert" d="M 5 75 V 2.5 A 1 1 0 0 0 0 2.5 V 75 A 1 1 0 0 0 5 75 Z" />
+    <path id="vLink2" class="wire vert" d="M 5 48 V 2.5 A 1 1 0 0 0 0 2.5 V 48 A 1 1 0 0 0 5 48 Z" />
+    <path id="vLink1" class="wire vert" d="M 5 23 V 2.5 A 1 1 0 0 0 0 2.5 V 23 A 1 1 0 0 0 5 23 Z" />
     <defs>
-        <lineargradient id="wire" gradientTransform="rotate(90)">
+        <lineargradient id="h-wire" gradientTransform="rotate(90)">
+            <stop offset="0" style="stop-color:rgb(153,153,153)" />
+            <stop offset="0.33" style="stop-color:rgb(243,243,243)" />
+            <stop offset="1" style="stop-color:rgb(153,153,153)" />
+        </lineargradient>
+        <lineargradient id="v-wire">
             <stop offset="0" style="stop-color:rgb(153,153,153)" />
             <stop offset="0.33" style="stop-color:rgb(243,243,243)" />
             <stop offset="1" style="stop-color:rgb(153,153,153)" />
